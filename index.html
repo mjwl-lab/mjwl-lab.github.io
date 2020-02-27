@@ -44,6 +44,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
+				border-radius: 20px;
 }
 
 li {
@@ -62,6 +63,35 @@ li a:hover {
     background-color: ghostwhite;
 }
 		/*导航栏*/
+		
+		/*图片模糊*/
+#myImg:hover {
+opacity: 0.7;
+transition: 0.5s;
+}
+/*图片模糊*/
+
+/*动画效果*/
+
+/*动画效果*/
+/*按钮*/
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: ghostwhite;
+    padding: 25px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 40px;
+}
+.button:hover {background-color: #e7e7e7;}
+/*按钮*/
 </style>
 </head>
 <body>
@@ -72,12 +102,14 @@ li a:hover {
 	  <li><a href="https://mjwl-lab.github.io/个人剪辑.html"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;剪辑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></a></li>
 			<li><a href="https://mjwl-lab.github.io/下载.html"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></a></li>
 	</ul></center>
-<center><img src="图标.png"></center>
+<center><a href="https://mjwl-lab.github.io"><img id="myImg" src="图标.png"></center>
 <center><h2><strong>梦见未来的博客</strong></h2></center>
-<center><h1><strong><a href="https://mjwl-lab.github.io/个人简介.html"><img src="个人简介.png"></a></strong></h1></center>
+<center><h1><strong><a href="https://mjwl-lab.github.io/个人简介.html"><button class="button">个人简介</button></a></strong></h1></center>
 <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=white SIZE=3>
-<center><a href="https://mjwl-lab.github.io/学习Pr第一节.html"><div><h3>学习剪辑？来这里看看吧!-第一节(内有Pr2020版安装包呦)</h3></br></br></br><img src="pr.png"></a></div></center><br /><br />
-<center><a href="https://mjwl-lab.github.io/helloworld.html"><div><h3>2020年2月17日,梦见未来的博客网站建成！</h3><img src="github.png"></a></div></center>
+
+<center><a href="https://mjwl-lab.github.io/学习Pr第一节.html"><div id="myImg"><h3>学习剪辑？来这里看看吧!-第一节(内有Pr2020版安装包呦)</h3><img src="pr.png"></a></div></center><br /><br />
+<center><a href="https://mjwl-lab.github.io/helloworld.html"><div id="myImg"><h3>2020年2月17日,梦见未来的博客网站建成！</h3><img src="github.png"></a></div></center>
+
 <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=white SIZE=3>
 	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
